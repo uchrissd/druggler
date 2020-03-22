@@ -1,0 +1,77 @@
+p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+.appBar {
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navTitle {
+    font-family: "Constantia";
+    font-weight: 800;
+    font-size: 30pt;
+    float: left;
+    margin-left: 5%;
+    color: rgb(34, 68, 48);
+}
+
+.navButton {
+    font-family: 'Darker grotesque', sans-serif;
+    font-weight: 400;
+    font-size: 16pt;
+    float: right;
+    margin-right: 5%;
+    margin-top: 15px;
+    bottom: 0px;
+    flex-wrap: wrap;
+    color:  rgb(17, 0, 255);
+    text-decoration: none;
+}
+
+.spacer {
+    height: 20px;
+    width: 100%;
+    background-color: blue;
+}
+.navButton:hover{
+    cursor: pointer;
+    color: black;
+}
+.link:hover{
+    cursor: pointer;
+    color: rgb(102, 3, 3);
+}
+
+@media only screen and (max-width: 700px) {
+    .navTitle {
+        font-size: 22pt;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .navTitle {
+        font-size: 12pt;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .navButton {
+        font-size: 12pt;
+        margin-top: 8px;
+    }
+}
+
+@media only screen and (max-width: 488px) {
+    .navButton {
+        font-size: 8pt;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .appBar {
+        height: 40px;
+    }
+}
